@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
             fire = true;
             GameObject tmp = GameObject.Find("Mutant:RightHand").gameObject;
 
-            Instantiate(prefab, tmp.transform.position + new Vector3(0, 0.1f, 0), Quaternion.identity, tmp.transform);
+            Instantiate(prefab, tmp.transform.position + new Vector3(0, 0.1f, -0.1f), Quaternion.identity, tmp.transform);
         }
         else
         {
